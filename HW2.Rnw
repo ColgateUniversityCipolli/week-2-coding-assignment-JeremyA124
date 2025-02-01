@@ -127,8 +127,7 @@ riemann.sums <- function(fnct,                        # function to integrate
 riemann.sums(fnct = integrand,
              a = 0,
              b = 2,
-             n.rect = 100,
-             method = "Trapezoidial")
+             n.rect = 100)
 ######################################
 # Compare to numerical integral
 ######################################
